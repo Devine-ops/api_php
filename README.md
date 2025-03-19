@@ -26,6 +26,10 @@ php artisan make:seed UserSeeder
 
 php artisan db:seed --class=DatabaseSeeder
 
+## Gerar um apiKey
+
+php artisan key:generate
+
 ## Request
 
 php artisan make:request UserRequest
